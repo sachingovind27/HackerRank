@@ -23,7 +23,7 @@ class binarySearch{
     } 
     public static void main(){
 
-        bst.searchBST(0,input.length,input.length/2);
-        System.out.println("Start test1");
+        int pos = bst.searchBST(0,input.length,input.length/2);
+        System.out.println("position - " + pos);
     }
 }
