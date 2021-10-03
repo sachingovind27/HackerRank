@@ -5,7 +5,7 @@ import java.util.*;
 class binarySearch{
 
     //global input
-    int []input = new int[100];
+    static int []input = new int[100];
 
     public static void main(){
 
