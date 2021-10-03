@@ -22,8 +22,8 @@ class binarySearch{
         return index;
     } 
     public static void main(){
-
-        bst.searchBST(0,input.length,input.length/2);
-        System.out.println("Start test1");
+       
+       //call Search
+       bst.searchBST(0,input.length,input.length/2);
     }
 }
