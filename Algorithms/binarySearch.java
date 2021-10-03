@@ -3,12 +3,15 @@ package Algorithms;
 import java.util.*;
 
 class binarySearch{
+
+    //global input
+    int []input = new int[100];
+
     public static void main(){
 
        //Take input 
        Scanner sc = new Scanner(System.in); 
-       int []input = new int[100];
-
+       
        try {
            
             String []inpStr = sc.nextLine().split(",");
